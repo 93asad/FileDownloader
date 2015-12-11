@@ -1,0 +1,39 @@
+{
+    "version": "1.0.0-*",
+    "description": "FileDownloader Console Application",
+    "authors": [ "Deepthi" ],
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": "",
+
+    "dependencies": {
+    },
+
+    "commands": {
+        "FileDownloader": "FileDownloader"
+    },
+
+    "frameworks": {
+        "dnx451": {
+            "frameworkAssemblies": {
+                "System.Net": "4.0.0.0",
+                "System.IO.Compression.FileSystem": "4.0.0.0",
+                "System.Windows.Forms": "4.0.0.0",
+                "System.XML": "4.0.0.0"
+            },
+            "dependencies": {
+                "System.IO.Compression": "4.0.0-beta-23019",
+                "HtmlAgilityPack": "1.0.0-*"
+            }
+        },
+        "dnxcore50": {
+            "dependencies": {
+                "System.Collections": "4.0.10-beta-23019",
+                "System.Console": "4.0.0-beta-23019",
+                "System.Linq": "4.0.0-beta-23019",
+                "System.Threading": "4.0.10-beta-23019",
+                "Microsoft.CSharp": "4.0.0-beta-23019"
+            }
+        }
+    }
+}
