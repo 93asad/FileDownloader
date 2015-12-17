@@ -1,3 +1,4 @@
+#FileDownloader
 This application has command line interface and once it is executed, it automatically downloads all the files with ".xml" extension
 for each company and saves them to a zipped folder.
 
